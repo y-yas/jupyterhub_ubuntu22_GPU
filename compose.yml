@@ -1,6 +1,6 @@
 services:
   jupyterlab:
-    build: ./jupyterlab
+    build: ./jupyterhub
     container_name: jupyterhub
     working_dir: /work
     volumes:
